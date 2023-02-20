@@ -65,6 +65,8 @@ function Portfollio() {
         <div className='px-6'><PortfollioCards/></div>
         </div>
     </div>
+
+    
   )
 }
 
