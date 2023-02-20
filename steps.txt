@@ -1,0 +1,36 @@
+(1) composer create-project laravel/laravel example-app
+(2) npm create vite@latest and follow the step from terminal ask you
+(3) to change port number you can add this in below file : 
+public/react/package.json : "dev": "vite --port=3000", and then run npm run dev
+(4) 
+commpand ; cd/react (go to react folder then install css)
+Install tailwind css : https://tailwindcss.com/docs/guides/laravel
+npm install -D tailwindcss postcss autoprefixer
+npx tailwindcss init -p
+(5) Open https://tailwindcss.com/docs/guides/create-react-app and add
+"./src/**/*.{js,jsx,ts,tsx}", to tailwind.config.js inside react folder
+(6) Open .editorconfig file adn add this line of code : 
+[*.{js,jsx,cjs}]
+indent_size = 2
+(7) OPend index.css file from react folder ad add this code:
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+(8)npm run dev 
+tailwind css successfully install and run
+
+(9) Add heroicon package run command Follow (https://github.com/tailwindlabs/heroicons)
+Command : npm install @heroicons/react
+
+
+(10) npm install @headlessui/react to add header Ui 
+get from : https://headlessui.com/react/menu
+
+(11) 3D slider
+npm i react-spring-3d-carousel
+npm install uuid
+follow this link : https://codesandbox.io/s/webcarroussel-9n4qmf?file=/src/App.js:72-108
+
+npm install flowbite card to make card : https://flowbite.com/docs/components/card/
+
+(12)npm i framer-motion :  animation package
